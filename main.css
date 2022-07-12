@@ -1,8 +1,12 @@
 /* Common Headers */
+
 body {
     font-size: 67.5%;
     font-family: 'Inter', sans-serif, 'Times New Roman', Times, serif, Arial, Helvetica, sans-serif;
     background-color: #F7F7F7;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     padding: 0%;
     margin: 0;
     -webkit-background-size: 100% 100%;
@@ -78,7 +82,10 @@ header h1 {
 
 /* Icon */
 
-
+#bookStoreLogo {
+   display: flex;
+   margin: 0 auto 3em auto;
+}
 
 /* Utility Bar */
 nav#utilityMenu {
@@ -88,7 +95,6 @@ nav#utilityMenu {
     padding: 0;
 }
 nav#utilityMenu ul {
-    float: right;
     text-align: right;
     margin: 0;
     padding: 0.5em;
@@ -131,6 +137,7 @@ nav li a, nav li a:visited {
 nav li a:hover {
     color: white;
     background-color: pink;
+    border-radius: 12px;
 }
 
 /* J.K. Rowling Book Signing */
@@ -257,7 +264,7 @@ footer ul#menuFooter li {
     padding: 0 0.7em 0 0;
     margin: 0;
 }
-footer ul#menuFooter li::before {
+footer ul#menuFooter li {
     content: "| ";
     padding-right: 0.7em;
 }
