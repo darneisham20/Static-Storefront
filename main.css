@@ -80,11 +80,10 @@ header h1 {
     float: left;
 }
 
-/* Icon */
-
+/* Book Store Logo */
 #bookStoreLogo {
-   display: flex;
-   margin: 0 auto 3em auto;
+    display: flex;
+    margin: 0 auto 1.5em auto;
 }
 
 /* Utility Bar */
@@ -240,6 +239,62 @@ section#bookRec h3 {
     letter-spacing: 0.025em;
     margin: 0;
     color: white;
+}
+
+section#bookRec h4 {
+    font-family: 'Inter', sans-serif, 'Times New Roman', Times, serif, Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    letter-spacing: 0.025em;
+    margin: 0;
+    color: white;
+}
+
+section#bookRec p {
+    font-family: 'Inter', sans-serif, 'Times New Roman', Times, serif, Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    letter-spacing: 0.025em;
+    margin: 0 0 0 25px;;
+    color: white;
+    width: 73%;
+}
+
+.parentPanel {
+    margin: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.panel1 {
+    display: inline-block;
+    padding: 0 1rem 0 1rem;
+    text-align: center;
+}
+
+.aboutBook {
+    display: inline-block;
+    padding: 0 1rem 0 1rem;
+    width: 25%;
+    text-align: center;
+}
+
+.panel2 {
+    display: inline-block;
+    padding: 0 1rem 0 1rem;
+    text-align: center;
+}
+
+.panel3 {
+    display: inline-block;
+    padding: 0 1rem 0 1rem;
+    text-align: center;
+}
+
+.panel4 {
+    display: inline-block;
+    padding: 0 1rem 0 1rem;
+    text-align: center;
 }
 
 /* Footer */
