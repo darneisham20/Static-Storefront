@@ -205,7 +205,7 @@ section#summerRead h3 {
 }
 
 section#summerRead p {
-    display: inline-block;
+    display: inline;
     float: right;
     font-family: 'Inter', sans-serif, 'Times New Roman', Times, serif, Arial, Helvetica, sans-serif;
     font-weight: 400;
@@ -214,6 +214,16 @@ section#summerRead p {
     letter-spacing: 0.025em;
     margin: 0 0 20px 0;
     color: rgb(54, 58, 61);
+}
+
+section#summerRead p a:visited {
+    color: rgb(54, 58, 61);
+}
+
+section#summerRead p a:hover {
+    font-weight: 700;
+    color: rgb(54, 58, 61);
+    text-decoration: underline;
 }
 
 section#summerRead ul {
