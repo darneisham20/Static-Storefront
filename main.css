@@ -64,7 +64,7 @@ ol li {
 /* Header */
 header {
     padding: 1em 0 0.5em;
-    margin: 0 0 2.0em 0;
+    margin: 0;
     background: #172D39;
 }
 
@@ -143,7 +143,7 @@ nav li a:hover {
 /* J.K. Rowling Book Signing */
 
 section#bookSign {
-    background-color: rgb(138, 138, 138);
+    background-color: #a8a8a8;
     height: auto;
     margin: 2em 0 1em 0;
     padding: 2em 2em 2em 2em;
@@ -226,18 +226,6 @@ section#summerRead p a:hover {
     text-decoration: underline;
 }
 
-/* section#summerRead ul {
-    margin: 0;
-    padding: 0;
-    list-style-type: none;
-    text-align: center;
-}
-
-section#summerRead ul li {
-    display: inline;
-    margin: 10px 0;
-} */
-
 .scroll-images {
     display: flex;
     flex-wrap: wrap;
@@ -251,7 +239,7 @@ section#summerRead ul li {
 
 /* Bookseller Recommendations */
 section#bookRec {
-    background-color: rgb(138, 138, 138);
+    background-color: #a8a8a8;
     margin: 1em 0 2em 0;
     padding: 2em 2em 2em 2em;
     display: inline-block;
@@ -296,8 +284,13 @@ section#bookRec p {
     padding: 0 1rem 0 1rem;
     text-align: center;
 }
+
 .panel1 h4 {
-    padding: 10px;
+    padding: 12px;
+}
+
+.panel1 p {
+    text-decoration: underline;
 }
 
 .aboutBook {
@@ -306,6 +299,10 @@ section#bookRec p {
     width: 25%;
     vertical-align: top;
     text-align: center;
+}
+
+.aboutBook p {
+    text-decoration: none;
 }
 
 .panel2 {
@@ -319,6 +316,10 @@ section#bookRec p {
     padding: 10px;
 }
 
+.panel2 p {
+    text-decoration: underline;
+}
+
 .panel3 {
     display: inline-block;
     padding: 0 1rem 0 1rem;
@@ -330,6 +331,10 @@ section#bookRec p {
     padding: 10px;
 }
 
+.panel3 p {
+    text-decoration: underline;
+}
+
 .panel4 {
     display: inline-block;
     padding: 0 1rem 0 1rem;
@@ -339,6 +344,10 @@ section#bookRec p {
 
 .panel4 h4 {
     padding: 10px;
+}
+
+.panel4 p {
+    text-decoration: underline;
 }
 
 /* Footer */
