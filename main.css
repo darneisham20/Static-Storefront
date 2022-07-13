@@ -134,10 +134,11 @@ nav li a, nav li a:visited {
 }
 
 nav li a:hover {
+    font-weight: 700;
     color: white;
-    background-color: pink;
-    border-radius: 12px;
-}
+    text-decoration: underline;
+} 
+
 
 /* J.K. Rowling Book Signing */
 
@@ -194,21 +195,24 @@ section#summerRead {
 }
 
 section#summerRead h3 {
+    display: inline-block;
     font-family: 'Inter', sans-serif, 'Times New Roman', Times, serif, Arial, Helvetica, sans-serif;
     font-weight: 700;
     font-size: 1.5em;
     letter-spacing: 0.025em;
-    margin: 0;
+    margin: 0 0 20px 0;
     color: rgb(54, 58, 61);
 }
 
 section#summerRead p {
+    display: inline-block;
+    float: right;
     font-family: 'Inter', sans-serif, 'Times New Roman', Times, serif, Arial, Helvetica, sans-serif;
     font-weight: 400;
     font-size: 14px;
     font-style: italic;
     letter-spacing: 0.025em;
-    margin: 0;
+    margin: 0 0 20px 0;
     color: rgb(54, 58, 61);
 }
 
@@ -338,10 +342,7 @@ footer ul#menuFooter li {
     padding: 0 0.7em 0 0;
     margin: 0;
 }
-footer ul#menuFooter li {
-    content: "| ";
-    padding-right: 0.7em;
-}
+
 
 footer a, footer a:visited {
     color: white;
@@ -349,14 +350,12 @@ footer a, footer a:visited {
 }
 
 footer a:hover {
-    color: pink;
+    font-weight: 700;
+    color: white;
     text-decoration: underline;
 }
 
 footer #socialLinks {
     position: relative;
     float: right;
-    vertical-align: top;
-    margin-top: 10px;
-    padding-top: 5px;
 }
